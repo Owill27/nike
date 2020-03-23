@@ -9,17 +9,26 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     .text{
       font-size: 15rem;
-      font-weight: 700;
-      transform: scaleX(.9);
+      font-weight: 900;
       font-style: italic;
       color: var(--bg-color);
       text-shadow:  10px 10px 20px rgba(0,0,0,.09),
                     -10px -10px 20px white;
+    }
+    
+    .bg-logo{
+      margin-top: -15rem;
+      fill: var(--bg-color);
+    }
+
+    .bottom-blur{
+      fill: rgba(0,0,0,.09)
     }
   }
 }
