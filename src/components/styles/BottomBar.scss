@@ -1,0 +1,43 @@
+.BottomBar{
+  position: fixed;
+  bottom: 20px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bottom-bar-item{
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 25px;
+    cursor: pointer;
+    
+    &:hover img{
+      transform: scale(1.3) rotate(-45deg);
+    }
+
+    img{
+      transform: rotate(-45deg);
+      width: 100px;
+      height: auto;
+      margin-left: -50px;
+      transition: transform 300ms ease-out;
+    }
+
+    .details{
+      text-align: left;
+      padding: 0 20px;
+      font-size: .9rem;
+
+      .name{
+        font-weight: 500;
+        font-size: 1rem;
+      }
+    }
+  }
+}

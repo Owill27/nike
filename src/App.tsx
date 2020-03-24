@@ -2,6 +2,7 @@ import React from 'react'
 import Background from './components/Background'
 import './App.scss'
 import Header from './components/Header'
+import BottomBar from './components/BottomBar'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Background />
       <div className='Body'>
         <Header />
+        <BottomBar />
       </div>
     </div>
   )
