@@ -1,0 +1,10 @@
+.Button{
+  outline: none;
+  border: none;
+  background: var(--bg-color);
+  color: var(--text-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+
+@import url(./IconButton.scss)

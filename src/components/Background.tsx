@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Background: React.FC = ({ children }) => {
+const Background: React.FC = () => {
   return (
     <div className='Background'>
 
@@ -21,8 +21,6 @@ const Background: React.FC = ({ children }) => {
           </g>
         </svg>
       </div>
-
-      { children }
     </div>
   )
 }

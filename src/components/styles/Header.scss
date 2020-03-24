@@ -1,0 +1,35 @@
+.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+
+  .app-logo{
+    width: 4rem;
+    height: auto;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+    .item{
+      padding: 10px;
+      font-weight: 500;
+      text-transform: uppercase;
+      opacity: .7;
+
+      &.active{
+        opacity: 1;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .buttons .Button{
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
