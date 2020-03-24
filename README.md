@@ -1,2 +1,9 @@
 # Nike Showcase App
-A simple react app to showcase previewing and add-to-cart functionality for nike shoes
+Nike Shoes browsing and ordering showcase
+
+## Screenshot:
+![ScreenShot](screenshot.png)
+
+Inspired by an [Instragram Post by @ben.tekk](https://www.instagram.com/p/B8ERVfthNmf/)
+
+Clone project then `npm install` and `npm start` to launch locally
