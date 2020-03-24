@@ -3,7 +3,6 @@ import Background from './components/Background'
 import Header from './components/Header'
 import BottomBar from './components/BottomBar'
 import MainView from './components/MainView'
-import { shoesData } from './shoes-data'
 import './App.scss'
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       <Background />
       <div className='Body'>
         <Header />
-        <MainView shoe={shoesData[0]}/>
+        <MainView />
         <BottomBar />
       </div>
     </div>

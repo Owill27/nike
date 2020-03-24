@@ -6,6 +6,7 @@ export interface shoeVariety {
 }
 
 export interface shoeInfo {
+  id: number,
   name: string,
   description: string,
   varieties: shoeVariety[],
@@ -14,6 +15,7 @@ export interface shoeInfo {
 
 export const shoesData: shoeInfo[] = [
   {
+    id: 1,
     name: 'Nike Air Max 270',
     description: 'Nike air max 270 shoes',
     varieties: [
@@ -50,6 +52,7 @@ export const shoesData: shoeInfo[] = [
     ]
   },
   {
+    id: 2,
     name: 'Nike PG-4',
     description: 'Nike PG-4 shoes',
     varieties: [
@@ -80,6 +83,7 @@ export const shoesData: shoeInfo[] = [
     ]
   },
   {
+    id: 3,
     name: 'Nike Zoom Turbo',
     description: 'Nike zoom turbo shoes',
     varieties: [

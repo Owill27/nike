@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { shoeInfo, shoesData } from '../shoes-data'
 import IconButton from './IconButton'
+import { StateContext } from '../state-provider'
 
 interface BottomBarItemProps {
   shoe: shoeInfo,
@@ -13,8 +14,10 @@ const BottomBarItem = (props: BottomBarItemProps) => {
   const variety = shoe.varieties[0]
   const image = `images/${variety.image}.png`
 
+  const { setActiveShoe } = useContext(StateContext)
+
   return (
-    <div className='bottom-bar-item'>
+    <div className='bottom-bar-item' onClick={()=>setActiveShoe(shoe.id)}>
       <img src={image} alt=''/>
 
       <div className='details'>
