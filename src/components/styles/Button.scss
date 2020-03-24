@@ -5,6 +5,19 @@
   color: var(--text-color);
   box-shadow: var(--box-shadow);
   border-radius: 10px;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+
+  &.type-0,
+  &.type-1{
+    padding: 20px 25px;
+  }
+
+  &.type-1{ //text-button
+    background: transparent;
+    box-shadow: none;
+  }
 }
 
 @import url(./IconButton.scss)

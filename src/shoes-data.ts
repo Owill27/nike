@@ -8,7 +8,8 @@ export interface shoeVariety {
 export interface shoeInfo {
   name: string,
   description: string,
-  varieties: shoeVariety[]
+  varieties: shoeVariety[],
+  variery?: shoeVariety
 }
 
 export const shoesData: shoeInfo[] = [

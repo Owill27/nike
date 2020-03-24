@@ -1,8 +1,10 @@
 import React from 'react'
 import Background from './components/Background'
-import './App.scss'
 import Header from './components/Header'
 import BottomBar from './components/BottomBar'
+import MainView from './components/MainView'
+import { shoesData } from './shoes-data'
+import './App.scss'
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Background />
       <div className='Body'>
         <Header />
+        <MainView shoe={shoesData[0]}/>
         <BottomBar />
       </div>
     </div>
